@@ -1,5 +1,8 @@
 name: cloudflared
 
+x-lighthouse:
+  tier: infra
+
 services:
   cloudflared:
     container_name: cloudflared
